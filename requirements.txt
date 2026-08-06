@@ -1,64 +1,32 @@
-# ==========================================
-# MANIPULAÇÃO DE DADOS
-# ==========================================
 pandas
 numpy
-
-# ==========================================
-# LEITURA DE ARQUIVOS
-# ==========================================
-openpyxl
-xlrd
-pyarrow
-
-# ==========================================
-# VISUALIZAÇÃO DE DADOS
-# ==========================================
 matplotlib
+seaborn
 plotly
 
-# ==========================================
-# DASHBOARD
-# ==========================================
-streamlit
-streamlit-folium
-
-# ==========================================
-# DADOS GEOGRÁFICOS
-# ==========================================
-geopandas
-folium
-shapely
-
-# ==========================================
-# ESTATÍSTICA
-# ==========================================
-scipy
-
-# ==========================================
-# MACHINE LEARNING (Opcional)
-# ==========================================
-scikit-learn
-
-# ==========================================
-# QUALIDADE DOS DADOS
-# ==========================================
-missingno
-
-# ==========================================
-# BANCO DE DADOS
-# ==========================================
-sqlalchemy
-pymysql
-
-# ==========================================
-# JUPYTER
-# ==========================================
 jupyter
+notebook
 ipykernel
 
-# ==========================================
-# UTILITÁRIOS
-# ==========================================
+streamlit
+
+sqlalchemy
+mysql-connector-python
+pymysql
+
+openpyxl
+pyarrow
+
+scikit-learn
+
+geopandas
+folium
+
 requests
+
 python-dotenv
+
+tqdm
+openmeteo-requests
+requests-cache 
+retry-requests

@@ -1,0 +1,83 @@
+Solução de Problemas — Erro entre requests e urllib3
+
+Caso, ao executar o projeto, seja exibido o erro ModuleNotFoundError: No module named 'urllib3.exceptions', significa que o ambiente virtual (.venv) está inconsistente ou que as bibliotecas requests e urllib3 foram instaladas de forma incorreta.
+
+Primeiramente, ative o ambiente virtual do projeto. No Windows (PowerShell), execute:
+
+.venv\Scripts\Activate.ps1
+
+Em seguida, confirme se o Python e o pip pertencem realmente ao ambiente virtual. Execute os comandos abaixo:
+
+where python
+pip --version
+
+Os caminhos exibidos devem apontar para a pasta .venv do projeto.
+
+Se estiver tudo correto e o erro continuar, desinstale as bibliotecas responsáveis pela comunicação com a API:
+
+pip uninstall requests urllib3 -y
+
+Depois, limpe o cache do pip para evitar que versões corrompidas sejam reutilizadas:
+
+pip cache purge
+
+Atualize o gerenciador de pacotes:
+
+python -m pip install --upgrade pip
+
+Agora reinstale todas as dependências do projeto utilizando o arquivo requirements.txt:
+
+pip install -r requirements.txt
+
+Caso não exista o arquivo requirements.txt, instale manualmente as bibliotecas necessárias:
+
+pip install requests urllib3
+
+Após a instalação, verifique se ambas foram instaladas corretamente:
+
+pip show requests
+pip show urllib3
+
+Para confirmar que o módulo requests está funcionando, execute o comando abaixo:
+
+python -c "import requests; print(requests.__version__)"
+
+Se a versão da biblioteca for exibida no terminal, a instalação foi concluída com sucesso.
+
+Como teste final, verifique se o projeto consegue se comunicar com a API Open-Meteo. Crie um arquivo chamado teste_api.py com o conteúdo abaixo:
+
+import requests
+
+url = "https://archive-api.open-meteo.com/v1/archive"
+
+resposta = requests.get(url)
+
+print("Status:", resposta.status_code)
+
+Execute o arquivo:
+
+python teste_api.py
+
+Se o retorno for:
+
+Status: 200
+
+significa que a comunicação com a API está funcionando corretamente e o ambiente está pronto para executar o projeto.
+
+Caso o erro persista mesmo após todos os procedimentos anteriores, recomenda-se recriar completamente o ambiente virtual. Para isso, exclua a pasta .venv, crie um novo ambiente com:
+
+python -m venv .venv
+
+Ative novamente o ambiente:
+
+.venv\Scripts\Activate.ps1
+
+Atualize o pip:
+
+python -m pip install --upgrade pip
+
+E, por fim, reinstale todas as dependências do projeto:
+
+pip install -r requirements.txt
+
+Após esses procedimentos, o ambiente estará configurado corretamente e os scripts do projeto poderão ser executados normalmente, permitindo a comunicação com a API Open-Meteo e o processamento dos dados meteorológicos.

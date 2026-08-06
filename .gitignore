@@ -1,3 +1,7 @@
 # Ambiente virtual
 .venv/
+# Dados brutos
+data/raw/
+# Dados tratados
+dados_tratados/
 

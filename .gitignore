@@ -1,7 +1,7 @@
 # Ambiente virtual
 .venv/
-# Dados brutos
-data/raw/
-# Dados tratados
-dados_tratados/
+# Dados brutos e tratados
+data/
+#relatórios
+outputs/
 

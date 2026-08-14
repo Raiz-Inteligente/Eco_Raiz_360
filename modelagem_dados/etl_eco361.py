@@ -25,7 +25,7 @@ PASTA_BASE = os.path.abspath("./base")
 os.makedirs(PASTA_BASE, exist_ok=True)
 
 # Insira o link da pasta do Google Drive aqui:
-LINK_PASTA_DRIVE = "https://drive.google.com/drive/folders/1wSHcvrLdmFlmVMZHQwzzD9b-S3kQRmm4?usp=sharing"
+LINK_PASTA_DRIVE = "https://drive.google.com/drive/folders/1IkeRsrxm91gLnL8LgzitLuznLC_rm_yE?usp=sharing"
 
 logging.info("1. Verificando e baixando pasta de arquivos do Google Drive...")
 if LINK_PASTA_DRIVE.strip():

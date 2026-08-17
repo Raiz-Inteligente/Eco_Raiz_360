@@ -1,7 +1,3 @@
-Claro. Com as informações atualizadas, eu deixaria o `sql/README.md` **exclusivamente focado na camada SQL/MySQL**, sem criar uma seção de consultas analíticas, porque a análise foi realizada no Power BI. O Python fica responsável pelo ETL/carga.
-
-Abaixo está a versão pronta para colocar no GitHub:
-
 # SQL — Eco360 | Raiz Inteligente
 
 Esta pasta contém a documentação e os scripts SQL utilizados na **estruturação do banco de dados relacional do projeto Eco360 — Raiz Inteligente**.

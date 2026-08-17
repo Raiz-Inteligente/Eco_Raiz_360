@@ -593,7 +593,7 @@ Para compreender o projeto como um todo:
 
 ### Pipeline
 
-[`docs/arquitetura_pipeline.md`](../docs/arquitetura_pipeline.md)
+[`docs/arquitetura_pipeline.md`](../docs/documentacao_pipeline_eco360.pdf)
 
 ### ETL
 

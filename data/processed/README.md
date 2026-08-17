@@ -1,14 +1,14 @@
 # Processed Data
 
-Esta pasta contém as bases de dados após as etapas de **limpeza, padronização, validação e transformação** dos dados brutos utilizados no projeto **Eco_Raiz_360**.
+Esta pasta contém as bases de dados após as etapas de **limpeza, padronização, validação, transformação e integração** realizadas no projeto **Eco_Raiz_360**.
 
-Os dados processados são derivados das fontes originais armazenadas em `data/raw/` e representam a camada intermediária do pipeline de dados.
+Os dados processados são derivados das fontes originais armazenadas em `data/raw/` e representam a **camada intermediária do pipeline de dados**, na qual diferentes fontes são preparadas e integradas para posterior análise.
 
 ---
 
-## Objetivo
+# Objetivo
 
-A camada `processed` tem como objetivo transformar os dados brutos em conjuntos de dados **estruturados, consistentes e prontos para integração e análise**.
+A camada `processed` tem como objetivo transformar os dados brutos em conjuntos de dados **estruturados, consistentes, padronizados e integrados**, preparados para as etapas de segmentação, análise e construção dos indicadores do projeto.
 
 As etapas de processamento podem incluir:
 
@@ -23,7 +23,9 @@ As etapas de processamento podem incluir:
 * Seleção das variáveis relevantes;
 * Conversão e normalização de formatos;
 * Validação da estrutura dos dados;
-* Preparação para integração entre diferentes fontes.
+* Cruzamento entre diferentes fontes;
+* Integração de bases;
+* Preparação dos dados para análises e indicadores.
 
 ---
 
@@ -33,10 +35,7 @@ As etapas de processamento podem incluir:
 
 **Pasta:** `embrapa_dados_agropecuarios`
 
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
-
-### Descrição
+**Descrição:**
 
 Dados agropecuários utilizados para caracterização das atividades produtivas e análise do setor agropecuário.
 
@@ -46,84 +45,18 @@ Dados agropecuários utilizados para caracterização das atividades produtivas 
 * Tratamento de valores ausentes;
 * Padronização de unidades;
 * Padronização de municípios e códigos geográficos;
-* Seleção das variáveis relevantes para análise.
+* Seleção das variáveis relevantes;
+* Preparação para integração com outras fontes.
 
 ---
 
-## 2. IBGE — Bioma Predominante por Município
-
-**Pasta:** `ibge_bioma_predominante_municipio`
-
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
-
-### Descrição
-
-Dados utilizados para identificar o bioma predominante associado a cada município.
-
-### Principais tratamentos
-
-* Padronização dos códigos dos municípios;
-* Padronização dos nomes dos municípios;
-* Tratamento de valores ausentes;
-* Validação dos municípios;
-* Organização das informações para integração com outras bases.
-
----
-
-## 3. IBGE — Malha Municipal
-
-**Pasta:** `ibge_malha_municipal`
-
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
-
-### Descrição
-
-Dados geográficos utilizados como referência territorial para os municípios analisados.
-
-### Principais tratamentos
-
-* Padronização dos identificadores municipais;
-* Validação da estrutura territorial;
-* Padronização dos nomes das unidades geográficas;
-* Organização dos atributos espaciais;
-* Preparação para integração com dados socioeconômicos, ambientais e agropecuários.
-
----
-
-## 4. IBGE — PAM — Soja e Cana-de-açúcar
-
-**Pasta:** `ibge_pam_soja_cana_municipios`
-
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
-
-### Descrição
-
-Dados da Produção Agrícola Municipal relacionados principalmente à produção de **soja e cana-de-açúcar**.
-
-### Principais tratamentos
-
-* Seleção das culturas relevantes;
-* Padronização de municípios;
-* Padronização de unidades de produção;
-* Tratamento de valores ausentes;
-* Padronização dos períodos de referência;
-* Organização das variáveis de produção e área plantada/colhida.
-
----
-
-## 5. INMET — Dados Históricos Climáticos
+## 2. INMET — Dados Históricos Climáticos
 
 **Pasta:** `inmet_dados_historicos_climaticos`
 
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
+**Descrição:**
 
-### Descrição
-
-Dados meteorológicos históricos utilizados para caracterização das condições climáticas das regiões analisadas.
+Dados meteorológicos históricos utilizados para caracterização das condições climáticas dos territórios analisados.
 
 ### Principais tratamentos
 
@@ -131,61 +64,36 @@ Dados meteorológicos históricos utilizados para caracterização das condiçõ
 * Tratamento de registros inconsistentes;
 * Padronização das variáveis meteorológicas;
 * Tratamento de valores ausentes;
-* Organização das informações por estação e período;
-* Padronização das unidades de medida.
+* Organização por estação e período;
+* Padronização das unidades de medida;
+* Preparação para integração com dados territoriais e agropecuários.
 
 ---
 
-## 6. MapBiomas — Cobertura e Uso da Terra
+## 3. MapBiomas — Cobertura e Uso da Terra
 
 **Pasta:** `mapbiomas_cobertura_uso_terra`
 
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
+**Descrição:**
 
-### Descrição
-
-Dados utilizados para caracterizar a cobertura e o uso da terra nos territórios analisados.
+Dados utilizados para caracterizar a cobertura e o uso da terra nos municípios analisados.
 
 ### Principais tratamentos
 
-* Seleção das classes de cobertura e uso relevantes;
+* Seleção das classes relevantes;
 * Padronização dos códigos territoriais;
 * Organização das informações temporais;
 * Tratamento de valores ausentes ou inconsistentes;
-* Preparação dos dados para análises territoriais e ambientais.
+* Padronização das categorias;
+* Preparação para análises territoriais e ambientais.
 
 ---
 
-## 7. MapBiomas — Solo
-
-**Pasta:** `mapbiomas_solo`
-
-**Link dos dados processados:**
-🔗 `COLE_O_LINK_DO_GOOGLE_DRIVE_AQUI`
-
-### Descrição
-
-Dados relacionados às características e classificação dos solos utilizados na análise ambiental e territorial.
-
-### Principais tratamentos
-
-* Padronização das classes de solo;
-* Organização das informações territoriais;
-* Padronização dos identificadores geográficos;
-* Tratamento de inconsistências;
-* Seleção das variáveis relevantes para integração.
-
----
-
-## 8. SEEG — Emissões de Gases de Efeito Estufa
+## 4. SEEG — Emissões de Gases de Efeito Estufa
 
 **Pasta:** `seeg_emissoes_gee`
 
-**Link dos dados processados:**
-🔗 `https://drive.google.com/drive/folders/1aG6PNyGRIFVlrDvo-jAF64y_7rwqx6q0?usp=sharing`
-
-### Descrição
+**Descrição:**
 
 Dados de emissões e remoções de gases de efeito estufa utilizados para análise da dimensão climática e ambiental do projeto.
 
@@ -201,77 +109,203 @@ Dados de emissões e remoções de gases de efeito estufa utilizados para análi
 
 ---
 
-# Estrutura do Pipeline
+# Integrações Realizadas
 
-```text
-┌──────────────────────────────┐
-│            RAW               │
-│     Dados originais          │
-│     Google Drive              │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│         PROCESSING            │
-│                              │
-│ • Limpeza                    │
-│ • Padronização               │
-│ • Validação                  │
-│ • Transformação              │
-│ • Seleção de variáveis       │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│          PROCESSED            │
-│                              │
-│ Dados estruturados e         │
-│ consistentes                 │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│         SEGMENTED             │
-│                              │
-│ Dados preparados para        │
-│ análises específicas         │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│   ANÁLISE / MODELAGEM / BI    │
-└──────────────────────────────┘
-```
+Durante o processamento, algumas fontes foram **integradas entre si**, utilizando principalmente identificadores geográficos e informações territoriais.
 
-# Rastreabilidade
-
-Cada conjunto de dados processado deve manter relação com sua respectiva fonte original em `data/raw/`.
-
-A transformação dos dados deve ser realizada por meio dos scripts e notebooks disponíveis no projeto, permitindo a **reprodutibilidade do pipeline**.
-
-| Camada    | Localização       | Finalidade                                 |
-| --------- | ----------------- | ------------------------------------------ |
-| Raw       | `data/raw/`       | Dados originais                            |
-| Processed | `data/processed/` | Dados limpos e padronizados                |
-| Segmented | `data/segmented/` | Dados preparados para análises específicas |
-
-## Versionamento
-
-Os arquivos de grande volume não são versionados diretamente no GitHub.
-
-Os dados são armazenados externamente e referenciados neste documento por meio dos respectivos links do Google Drive.
+Essas integrações permitem consolidar informações provenientes de diferentes fontes e criar uma estrutura mais adequada para as análises do projeto.
 
 ---
 
-## Links dos dados processados
+## 5. IBGE — Malha Municipal + Bioma Predominante por Município
 
-| Dataset                              | Google Drive                      |
-| ------------------------------------ | --------------------------------- |
-| EMBRAPA — Dados Agropecuários        | [Acessar dados](COLE_O_LINK_AQUI) |
-| IBGE — Bioma Predominante            | [Acessar dados](COLE_O_LINK_AQUI) |
-| IBGE — Malha Municipal               | [Acessar dados](COLE_O_LINK_AQUI) |
-| IBGE — PAM Soja e Cana               | [Acessar dados](COLE_O_LINK_AQUI) |
-| INMET — Dados Climáticos             | [Acessar dados](COLE_O_LINK_AQUI) |
-| MapBiomas — Cobertura e Uso da Terra | [Acessar dados](COLE_O_LINK_AQUI) |
-| MapBiomas — Solo                     | [Acessar dados](COLE_O_LINK_AQUI) |
-| SEEG — Emissões GEE                  | [Acessar dados](COLE_O_LINK_AQUI) |
+### Fontes utilizadas
+
+* **IBGE — Malha Municipal**
+* **IBGE — Bioma Predominante por Município**
+
+### Descrição
+
+As informações da **Malha Municipal do IBGE** foram integradas aos dados de **bioma predominante por município**, utilizando os identificadores geográficos municipais como referência.
+
+Essa integração permite associar cada município às suas respectivas informações territoriais e ambientais.
+
+### Principais tratamentos
+
+* Padronização dos códigos dos municípios;
+* Padronização dos nomes dos municípios;
+* Validação dos identificadores geográficos;
+* Verificação da correspondência entre municípios;
+* Tratamento de duplicidades;
+* Tratamento de valores ausentes;
+* Integração das informações territoriais e ambientais;
+* Validação da consistência da base resultante.
+
+### Resultado
+
+A integração gera uma base municipal contendo informações territoriais associadas ao **bioma predominante de cada município**, servindo como referência para o relacionamento com outras bases do projeto.
+
+---
+
+## 6. IBGE PAM + MapBiomas Solo
+
+### Fontes utilizadas
+
+* **IBGE — Produção Agrícola Municipal (PAM)**
+* **MapBiomas — Solo**
+
+### Descrição
+
+Os dados da **PAM**, principalmente relacionados à produção de soja e cana-de-açúcar, foram integrados às informações de **solo do MapBiomas** durante a etapa de processamento.
+
+Essa integração permite relacionar a produção agrícola às características ambientais e territoriais dos municípios analisados.
+
+### Principais tratamentos
+
+* Seleção das culturas relevantes;
+* Padronização dos municípios;
+* Padronização dos códigos IBGE;
+* Padronização das unidades de produção;
+* Tratamento de valores ausentes;
+* Padronização dos períodos de referência;
+* Organização das variáveis de produção;
+* Integração das informações agrícolas e de solo;
+* Validação das chaves utilizadas no cruzamento.
+
+### Resultado
+
+A base resultante permite análises relacionadas à **produção agrícola e às características do solo**, servindo como uma das bases de apoio para os indicadores do projeto.
+
+---
+
+# Resumo das Bases e Integrações
+
+| Fonte / Integração                   | Tipo            | Finalidade                             |
+| ------------------------------------ | --------------- | -------------------------------------- |
+| EMBRAPA — Dados Agropecuários        | Base processada | Caracterização agropecuária            |
+| IBGE Malha + Bioma                   | **Integração**  | Referência territorial e ambiental     |
+| IBGE PAM + MapBiomas Solo            | **Integração**  | Relação entre produção agrícola e solo |
+| INMET — Dados Climáticos             | Base processada | Caracterização climática               |
+| MapBiomas — Cobertura e Uso da Terra | Base processada | Caracterização territorial             |
+| SEEG — Emissões GEE                  | Base processada | Análise de emissões                    |
+
+---
+
+# Estrutura do Pipeline
+
+```text
+┌────────────────────────────────────┐
+│                RAW                 │
+│                                    │
+│       Dados originais das fontes   │
+│                                    │
+│ • EMBRAPA                           │
+│ • IBGE                              │
+│ • INMET                             │
+│ • MapBiomas                         │
+│ • SEEG                              │
+└──────────────────┬─────────────────┘
+                   │
+                   ▼
+┌────────────────────────────────────┐
+│             PROCESSING              │
+│                                    │
+│ • Limpeza                           │
+│ • Padronização                      │
+│ • Validação                         │
+│ • Transformação                     │
+│ • Seleção de variáveis              │
+│ • Cruzamento de bases               │
+│ • Integração                        │
+└──────────────────┬─────────────────┘
+                   │
+          ┌────────┴─────────┐
+          ▼                  ▼
+┌──────────────────┐ ┌──────────────────────┐
+│ BASES PROCESSADAS│ │ BASES INTEGRADAS     │
+│                  │ │                      │
+│ EMBRAPA          │ │ IBGE Malha + Bioma   │
+│ INMET            │ │ PAM + MapBiomas Solo │
+│ MapBiomas        │ │                      │
+│ SEEG             │ │                      │
+└────────┬─────────┘ └──────────┬───────────┘
+         │                      │
+         └──────────┬───────────┘
+                    ▼
+┌────────────────────────────────────┐
+│             PROCESSED               │
+│                                    │
+│ Dados estruturados,                │
+│ padronizados e integrados          │
+└──────────────────┬─────────────────┘
+                   │
+                   ▼
+┌────────────────────────────────────┐
+│             SEGMENTED               │
+│                                    │
+│ Dados preparados para análises     │
+│ específicas                        │
+└──────────────────┬─────────────────┘
+                   │
+                   ▼
+┌────────────────────────────────────┐
+│           ANÁLISE / BI              │
+│                                    │
+│ Indicadores • DAX • Power BI       │
+└────────────────────────────────────┘
+```
+
+---
+
+# Rastreabilidade
+
+Cada conjunto de dados processado mantém relação com sua respectiva **fonte original em `data/raw/`**.
+
+Quando diferentes fontes são integradas, a documentação identifica quais bases participaram da construção do conjunto de dados resultante.
+
+As transformações são realizadas por meio dos **scripts e notebooks versionados no projeto**, permitindo maior rastreabilidade e reprodutibilidade do pipeline.
+
+| Camada    | Localização       | Finalidade                                             |
+| --------- | ----------------- | ------------------------------------------------------ |
+| Raw       | `data/raw/`       | Dados originais                                        |
+| Processed | `data/processed/` | Dados limpos, padronizados, transformados e integrados |
+| Segmented | `data/segmented/` | Dados preparados para análises específicas             |
+
+---
+
+# Versionamento
+
+Os arquivos de grande volume não são versionados diretamente no GitHub.
+
+Os dados processados são armazenados externamente e referenciados por meio dos respectivos links do Google Drive.
+
+Os **scripts e notebooks responsáveis pelo processamento** permanecem versionados no GitHub para garantir a rastreabilidade das transformações realizadas.
+
+---
+
+# Links dos Dados Processados
+
+| Dataset / Integração                 | Google Drive                                                                             |
+| ------------------------------------ | ---------------------------------------------------------------------------------------- |
+| EMBRAPA — Dados Agropecuários        | `https://drive.google.com/drive/folders/1f6Rl11YcJGDn6h2oMTQBsXi6FJuUZ0VU?usp=drive_link`|   
+|
+| IBGE — Malha Municipal + Bioma       | `https://drive.google.com/drive/folders/1W_uK1lecurGJgaSM9FEKwh-9ug8cpFce?usp=drive_link`|                                            |
+| IBGE PAM + MapBiomas Solo            | `https://drive.google.com/drive/folders/1JjIRkZNkpsCLVmOv1zaH-b3F4jDaqcA9?usp=drive_link`|                                            |
+| INMET — Dados Climáticos             | `https://drive.google.com/drive/folders/19SZrmA9dEzl6Zi3RH_1rFz1nSCTyACjG?usp=drive_link`|                                            |
+| MapBiomas — Cobertura e Uso da Terra | `https://drive.google.com/drive/folders/1kJ8XSA_Lbwf8j1040ppRyZAt6mc5cEr3?usp=drive_link`|                                            |
+| SEEG — Emissões de GEE               | `https://drive.google.com/drive/folders/1aG6PNyGRIFVlrDvo-jAF64y_7rwqx6q0?usp=sharing` |
+
+---
+
+## Observação
+
+A camada `processed` não representa apenas uma coleção de arquivos individualmente tratados. Ela também contém **resultados de integrações entre diferentes fontes de dados**.
+
+No projeto **Eco_Raiz_360**, destacam-se duas integrações realizadas durante o processamento:
+
+1. **IBGE Malha Municipal + IBGE Bioma Predominante por Município**
+2. **IBGE PAM + MapBiomas Solo**
+
+Essas integrações permitem construir uma base mais consistente para relacionar **território, bioma, produção agrícola e características ambientais**, servindo de suporte às etapas posteriores de análise, indicadores e visualização no Power BI.
+
+

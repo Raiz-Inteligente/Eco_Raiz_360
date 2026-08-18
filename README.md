@@ -335,6 +335,6 @@ O Eco360 foi desenvolvido como case da consultoria fictícia **Raiz Inteligente*
 
 <div align="center">
 
-**Raiz Inteligente © 2026** · Documento vivo — mantenha este README atualizado conforme o pipeline e o dashboard evoluírem.
+**Raiz Inteligente © 2026**
 
 </div>

@@ -17,9 +17,7 @@
 
 ---
 
-> 🖼️ **[Espaço reservado para screenshot da página "Visão 360"]**
-> *Substitua este bloco por uma imagem real do dashboard (`docs/img/visao-360.png`) assim que exportar o print — é a primeira coisa que quem abre o repositório vê.*
-
+> ![Visão 360 do dashboard](imagens/Visao_360.png)
 ---
 
 ## 📌 Índice

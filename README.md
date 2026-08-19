@@ -329,9 +329,25 @@ eco360/
 
 O Eco360 foi desenvolvido como case da consultoria fictícia **Raiz Inteligente**, para avaliação por banca de empresas e professores. O escopo atual — cultura de soja, regiões Centro-Oeste e Sul — é uma amostra pensada para demonstrar a metodologia; a estrutura foi projetada para expansão a outras culturas e regiões.
 
----
+## 👥 Equipe
 
 <div align="center">
+
+|    👤 **Membro**    |   👤 **Membro**   |    👤 **Membro**    |
+| :-----------------: | :---------------: | :-----------------: |
+| **Ana Marly Couto** | **Beatriz Costa** | **Guilherme Gomes** |
+|  **Karine Furtado** |  **Rafael Liger** |                     |
+
+</div>
+
+<br>
+
+> 🤝 A construção do **Eco360** foi realizada de forma colaborativa, com integração entre as etapas de **engenharia de dados, análise, modelagem e visualização**, garantindo que o resultado final refletisse o trabalho conjunto da equipe.
+
+
+<div align="center">
+
+---
 
 **Raiz Inteligente © 2026**
 

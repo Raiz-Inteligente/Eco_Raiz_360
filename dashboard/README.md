@@ -29,14 +29,14 @@ O relatório é organizado em 9 páginas:
 | Página | Conteúdo |
 |---|---|
 | **Menu** | Navegação central entre as páginas do relatório |
+| **Contato** | Página de encerramento/contato |
 | **Visão 360** | Painel executivo: gauge do IOA, mapa (Azure Maps), cards de indicadores-chave, tabela e filtros por UF/região/ano |
-| **Produção** | Produção total, ranking de municípios, variação YoY, comparativo por gráfico de barras/combinado e série de área |
+| **Metodologia** | Notas metodológicas e transparência sobre os cálculos |
 | **Clima** | Confiabilidade climática, dispersão (scatter) entre variáveis climáticas, série temporal e tabela dinâmica (pivot) |
+| **Produção** | Produção total, ranking de municípios, variação YoY, comparativo por gráfico de barras/combinado e série de área |
 | **Meio Ambiente** | Cobertura natural, potencial de carbono no solo, treemap, dispersão e mapa geográfico |
 | **Emissões** | Emissão total (municipal e estadual), intensidade de emissão, gráficos de barras e coluna 100% empilhada |
 | **Território** | Mapa geográfico (Azure Maps) com filtros por UF/região |
-| **Metodologia** | Notas metodológicas e transparência sobre os cálculos |
-| **Contato** | Página de encerramento/contato |
 
 **Filtros (slicers) disponíveis:** UF, região, ano, município e classificação de carbono no solo — aplicados de forma consistente entre as páginas analíticas.
 
